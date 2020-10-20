@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Krona+One&display=swap');
+
+body{
+  font-family: 'Jura', sans-serif;
+  background:hsl(219, 41%, 70%);
+  color:#fff;
+}
+
+.title{
+  padding-top:40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.quoteArea{
+  padding:40px;
+  font-size: 30px;
+  border:5px solid #fff;
+  margin-bottom: 30px;
+  color: #fff;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(247, 202, 201,1));
+
+}
+.fa-heart{
+    color:#ff1237;
+}
+.creator, .creator a{
+    text-align: center;
+    padding-top: 20px; 
+}
+.rand {
+  font-family: 'Krona One', sans-serif;
+}
+.quot {
+  font-family: 'Shadows Into Light', cursive;
+}
+.gene {
+  font-family: 'Permanent Marker', cursive;
+}
