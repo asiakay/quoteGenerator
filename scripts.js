@@ -14,7 +14,7 @@ function randomQuote() {
             $("#author").html("<p id=\"author\" class=\"text-right\"> ‐" 
             + quoteData.quoteAuthor + "</p>");
 
-            $("tweetMe").attr("href", "https://twitter.com/share?ref_src=twsrc%5Etfw" 
+            $("#tweetMe").attr("href", "https://twitter.com/share?ref_src=twsrc%5Etfw" 
             + quoteData.quoteText + ' - ' + quoteData.quoteAuthor);
         }
     });
