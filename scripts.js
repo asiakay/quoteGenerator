@@ -1,7 +1,10 @@
 function randomQuote() {
     $.ajax({
+        // sending request to get api data in json from url 
         url: "https://api.forismatic.com/api/1.0/?",
         dataType: "jsonp",
+        // method=getQuote&key=457653&format=xml&lang=en
+        //         data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
         data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
         success: function (quoteData) {
             if (quoteData.quoteAuthor === ''){
@@ -23,8 +26,8 @@ function randomQuote() {
 
 function randomColor(){
     var colors = [
-        '#34495e',
-        '#6C7A89',
+        '#252140',
+        '#112359',
         '#ABB7B7',
         '#336E7B',
         '#8E44AD',
@@ -51,6 +54,6 @@ $(function (){
 });
 
 $("#newQuote").click(function (){
-    $('body').css({'background' : randomColor(), 'transition' : 'all linear 0.2s'});
+    $('body').css({'background' : randomColor(), 'transition' : 'all linear 3.6s'});
     randomQuote();
 });
