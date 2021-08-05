@@ -25,7 +25,26 @@ body{
   color: black;
 }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
 
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 
 
 .nav {
@@ -73,3 +92,5 @@ body{
 .author {
   color: black;
 }
+
+
