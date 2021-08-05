@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
 body{
   font-family: 'Jura', sans-serif;
-  background:hsl(219, 41%, 70%);
-  color:#fff;
+/*   background:hsl(219, 41%, 70%);
+ */  color:#fff;
   font-family: 'Georama', sans-serif;
 }
 
 .jumbotron {
-  background-color: black;
-  background-image: url('https://asialakay.net/the-asialakay-brand/wp-content/uploads/2021/08/pexels-photo-1335115.jpeg');
+/*   background-color: black;
+ */  background-image: url('https://asialakay.net/the-asialakay-brand/wp-content/uploads/2021/08/pexels-photo-1335115.jpeg');
+  background-repeat: no-repeat;
   opacity: 80%;
 }
 
@@ -24,11 +25,7 @@ body{
   color: black;
 }
 
-#medobj {
-  font-size: medium;
-  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(247, 202, 201,1));
 
-}
 
 
 .nav {
@@ -38,7 +35,6 @@ body{
 }
 
 .quoteArea{
-
   padding-top: 0;
   padding:50px;
   font-size: 30px;
@@ -47,17 +43,23 @@ body{
   margin-bottom: 30px;
   color: #fff;
   border-radius: 0px;
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(247, 202, 201,1));
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #f7cac9);
+  backdrop-filter: blur(50px);
+  transform-style: preserve-3d;
+  transform: perspective(800px);
   height: 450px;
-
 }
-/* .fa-heart{
-    color:#ff1237;
-} */
-/* .creator, .creator a{
-    text-align: center;
-    padding-top: 20px; 
-} */
+#medobj {
+  padding-top: 0;
+  padding:50px;
+  font-size: 20px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #f7cac9);
+  backdrop-filter: blur(15px);
+  transform-style: preserve-3d;
+  transform: perspective(800px);
+}
+
+
 .rand {
   font-family: 'Georama', sans-serif;
   color: black;
@@ -65,9 +67,9 @@ body{
 .quot {
   font-family: 'Shadows Into Light', cursive;
 }
-.gene {
+/* .gene {
   font-family: 'Permanent Marker', cursive;
-}
+} */
 .author {
   color: black;
 }
