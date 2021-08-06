@@ -36,3 +36,11 @@ https://forum.freecodecamp.org/search?q=drum%20machine%20category%3A1
 https://web.dev/samesite-cookies-explained/?utm_source=devtools
 
 
+https://codepen.io/yuhomyan/pen/MWKdKpr
+
+https://codepen.io/ogdenstudios/pen/eYmyKJp
+
+https://freefrontend.com/css-neumorphism-examples/
+
+https://blog.oliverjumpertz.dev/the-moving-average-simple-and-exponential-theory-math-and-implementation-in-javascript
+
