@@ -18,6 +18,8 @@ Helpful Links
 
 https://replit.com/join/mjuscnfhrv-asiakay
 
+https://technowing.net/build-a-random-quote-generator-using-an-api/
+
 https://www.thoughtco.com/cultivation-theory-definition-4588455
 
 https://1stwebdesigner.com/15-css-background-effects/
@@ -43,4 +45,13 @@ https://codepen.io/ogdenstudios/pen/eYmyKJp
 https://freefrontend.com/css-neumorphism-examples/
 
 https://blog.oliverjumpertz.dev/the-moving-average-simple-and-exponential-theory-math-and-implementation-in-javascript
+
+
+https://webdesign.tutsplus.com/tutorials/create-a-masked-background-effect-with-css--cms-21112
+
+https://uxmisfit.com/2021/01/13/how-to-create-glassmorphic-card-ui-design/
+
+https://fireflysemantics.medium.com/generating-a-css-background-shape-with-css-clip-path-11c2401a36d
+
+https://fontawesome.com/
 

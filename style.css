@@ -14,7 +14,7 @@ body{
 
 .jumbotron {
 /*   background-color: black;
- */  background-image: url('https://asialakay.net/the-asialakay-brand/wp-content/uploads/2021/08/pexels-photo-1335115.jpeg');
+ */  background-image: url('https://asialakay.net/the-asialakay-brand/wp-content/uploads/2021/08/pexels-photo-1335115.jpeg'), url("https://images.pexels.com/photos/4341879/pexels-photo-4341879.jpeg?cs=srgb&dl=pexels-gela-del-rosario-4341879.jpg&fm=jpg");
   background-repeat: no-repeat;
   opacity: 80%;
   width: 100%;
