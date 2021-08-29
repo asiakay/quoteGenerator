@@ -80,7 +80,7 @@ a:active {
   backdrop-filter: blur(50px);
   transform-style: preserve-3d;
   transform: perspective(800px);
-  height: 550px;
+  height: 650px;
 }
 #medobj {
   padding-top: 0;
