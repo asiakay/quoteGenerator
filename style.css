@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Khula:700');
 
-body{
+body, html{
   font-family: 'Jura', sans-serif;
 /*   background:hsl(219, 41%, 70%);
  */  color:#fff;
@@ -14,11 +14,17 @@ body{
 
 .jumbotron {
 /*   background-color: black;
- */  background-image: url('https://asialakay.net/the-asialakay-brand/wp-content/uploads/2021/08/pexels-photo-1335115.jpeg'), url("https://images.pexels.com/photos/4341879/pexels-photo-4341879.jpeg?cs=srgb&dl=pexels-gela-del-rosario-4341879.jpg&fm=jpg");
+ */  background-image: url('https://asialakay.net/the-asialakay-brand/wp-content/uploads/2021/08/pexels-photo-1335115.jpeg');
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   opacity: 80%;
   width: 100%;
+  height: 100%;
+  margin: 0;
 }
+/* 
+, url("https://images.pexels.com/photos/4341879/pexels-photo-4341879.jpeg?cs=srgb&dl=pexels-gela-del-rosario-4341879.jpg&fm=jpg") */
 
 /* .title{
   margin-top: 0;
@@ -109,4 +115,3 @@ a:active {
 .author {
   color: black;
 }
-
