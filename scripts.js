@@ -9,6 +9,8 @@ function randomQuote() {
         success: function (quoteData) {
             if (quoteData.quoteAuthor === ''){
                 quoteData.quoteAuthor= 'Unknown';
+            } else if (quoteData.quoteAuthor === 'Donald Trump'){
+                quoteData.quoteAuthor= 'Unknown';
             };
 
             $("#randomQuote").html("<p id='randomQuote' /><i class=\"fa fa-quote-left\"></i>    " 

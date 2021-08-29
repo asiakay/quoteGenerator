@@ -69,7 +69,7 @@ a:active {
 .quoteArea{
   padding-top: 0;
   padding:50px;
-  font-size: 30px;
+  font-size: 25px;
   border:0px solid #fff;
   margin-top: 0;
   margin-bottom: 30px;
@@ -80,7 +80,7 @@ a:active {
   backdrop-filter: blur(50px);
   transform-style: preserve-3d;
   transform: perspective(800px);
-  height: 750px;
+  height: 850px;
 }
 #medobj {
   padding-top: 0;
